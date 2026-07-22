@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your Academy Name offers professional computer, programming, office productivity, and graphics design training with live projects, certifications, and placement support." />
+    <meta name="keywords" content="computer training academy, graphics design institute, programming classes, web development, office courses, digital skills" />
+    <meta name="theme-color" content="#2563EB" />
+    <meta name="author" content="Your Academy Name" />
+    <meta property="og:title" content="Your Academy Name | Professional Computer & Graphics Training" />
+    <meta property="og:description" content="Learn practical, job-ready skills through expert-led classes, modern labs, and portfolio-focused projects." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Your Academy Name" />
+    <meta name="twitter:description" content="Premium digital training for students, professionals, and career changers." />
+    <link rel="canonical" href="https://example.com/" />
+    <title>Your Academy Name | Professional Computer & Graphics Training</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#2563EB',
+              secondary: '#06B6D4',
+              accent: '#8B5CF6'
+            }
+          }
+        }
+      };
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "Your Academy Name",
+        "description": "Professional computer training academy offering programming, office productivity, and graphics design courses.",
+        "url": "https://example.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "12 Creative Lane",
+          "addressLocality": "Bengaluru",
+          "addressRegion": "Karnataka",
+          "addressCountry": "IN"
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased">
+    <div id="loading-screen" class="loading-screen" aria-hidden="true">
+      <div class="loading-ring"></div>
+      <p>Preparing your learning journey…</p>
+    </div>
+
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="container nav" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Your Academy Name home">
+          <span class="brand-mark">YA</span>
+          <span class="brand-text">
+            <strong>Your Academy Name</strong>
+            <small>Computer Training Academy</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#courses">Courses</a>
+          <a href="#courses" class="nav-link" data-filter="graphics">Graphics Design</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#placements">Placements</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode">☀️</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Premium digital training institute</p>
+            <h1>Build Your Career with Professional Computer & Graphics Training</h1>
+            <p>Learn from industry experts with practical projects, certifications, and job-ready skills that help you stand out in today’s competitive market.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#courses">Explore Courses</a>
+              <a class="btn btn-secondary" href="#contact">Contact Us</a>
+            </div>
+            <div class="hero-badges" aria-label="Key academy highlights">
+              <span><i class="fa-solid fa-briefcase"></i> Career-focused training</span>
+              <span><i class="fa-solid fa-laptop-code"></i> Live projects</span>
+              <span><i class="fa-solid fa-graduation-cap"></i> Expert mentorship</span>
+            </div>
+            <form class="course-search" aria-label="Search courses">
+              <label class="sr-only" for="search-input">Search courses</label>
+              <input id="search-input" type="search" placeholder="Search courses or tools" />
+              <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-card">
+              <div class="hero-card-glow"></div>
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1100&q=80" alt="Students learning in a modern computer lab" loading="eager" />
+              <div class="hero-card-content">
+                <div class="hero-metrics">
+                  <div class="metric-pill"><strong>5000+</strong><span>Trained</span></div>
+                  <div class="metric-pill"><strong>95%</strong><span>Satisfaction</span></div>
+                </div>
+                <h2>New batches starting soon</h2>
+                <p>Reserve your seat for the next live demo and experience our premium learning environment.</p>
+                <a href="#admissions" class="text-link">Join the next batch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-section">
+        <div class="container feature-strip reveal">
+          <article class="feature-pill"><strong>100%</strong><span>Practical learning</span></article>
+          <article class="feature-pill"><strong>24/7</strong><span>Mentor support</span></article>
+          <article class="feature-pill"><strong>Live</strong><span>Projects & portfolios</span></article>
+          <article class="feature-pill"><strong>95%</strong><span>Placement readiness</span></article>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div class="reveal">
+            <p class="eyebrow">About Your Academy Name</p>
+            <h2>We shape future-ready learners with professional guidance and practical exposure.</h2>
+            <p>Our academy blends creative thinking with technical depth so students, job seekers, and professionals gain the confidence to build meaningful careers in IT, design, and digital business.</p>
+            <div class="split-list">
+              <div>
+                <h3>Mission</h3>
+                <p>Deliver outcomes-driven courses with modern labs, projects, and mentorship that translate into real careers.</p>
+              </div>
+              <div>
+                <h3>Vision</h3>
+                <p>Create confident creators, developers, and designers who can thrive in a fast-changing digital world.</p>
+              </div>
+            </div>
+          </div>
+          <div class="reveal card-stack">
+            <article class="info-card">
+              <h3>Academy highlights</h3>
+              <ul class="check-list">
+                <li>Experienced trainers</li>
+                <li>Practical lab classes</li>
+                <li>Live projects</li>
+                <li>Affordable fees</li>
+                <li>Flexible timings</li>
+                <li>Career guidance</li>
+                <li>Internship support</li>
+                <li>Certificate after course completion</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="courses" class="section alt-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Featured courses</p>
+            <h2>Choose a course that fits your ambition and career goals.</h2>
+          </div>
+          <div class="filter-bar reveal">
+            <button class="filter-btn active" data-filter="all" type="button">All</button>
+            <button class="filter-btn" data-filter="programming" type="button">Programming</button>
+            <button class="filter-btn" data-filter="computer" type="button">Computer</button>
+            <button class="filter-btn" data-filter="graphics" type="button">Graphics</button>
+          </div>
+          <div id="course-grid" class="course-grid"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Why choose us</p>
+            <h2>Everything you need to learn faster and perform better.</h2>
+          </div>
+          <div class="categories-grid">
+            <article class="category-card reveal">
+              <i class="fa-solid fa-chalkboard-user icon-accent"></i>
+              <h3>Smart Classroom</h3>
+              <p>Focused sessions with structured lessons, live demos, and industry examples.</p>
+            </article>
+            <article class="category-card reveal">
+              <i class="fa-solid fa-desktop icon-accent"></i>
+              <h3>Modern Computer Lab</h3>
+              <p>High-performance systems and hands-on practice in every session.</p>
+            </article>
+            <article class="category-card reveal">
+              <i class="fa-solid fa-download icon-accent"></i>
+              <h3>Latest Software</h3>
+              <p>Learn with current tools and workflows used in modern workplaces.</p>
+            </article>
+            <article class="category-card reveal">
+              <i class="fa-solid fa-rocket icon-accent"></i>
+              <h3>Practical Assignments</h3>
+              <p>Build confidence through weekly tasks, assessments, and portfolio projects.</p>
+            </article>
+            <article class="category-card reveal">
+              <i class="fa-solid fa-users icon-accent"></i>
+              <h3>Live Projects</h3>
+              <p>Work on real-world assignments that prepare you for internships and jobs.</p>
+            </article>
+            <article class="category-card reveal">
+              <i class="fa-solid fa-handshake-angle icon-accent"></i>
+              <h3>Placement Assistance</h3>
+              <p>Dedicated support for interviews, resumes, and placement referrals.</p>
+            </article>
+            <article class="category-card reveal">
+              <i class="fa-solid fa-suitcase icon-accent"></i>
+              <h3>Internship Opportunities</h3>
+              <p>Gain practical experience with internship-ready project work and guidance.</p>
+            </article>
+            <article class="category-card reveal">
+              <i class="fa-solid fa-book-open icon-accent"></i>
+              <h3>Free Study Materials</h3>
+              <p>Access notes, resources, and revision packs even after course completion.</p>
+            </article>
+            <article class="category-card reveal">
+              <i class="fa-solid fa-globe icon-accent"></i>
+              <h3>Online + Offline Classes</h3>
+              <p>Flexible learning options built around your job, college, or schedule.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section alt-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Gallery</p>
+            <h2>See our learning spaces, student energy, and creative workshops.</h2>
+          </div>
+          <div id="gallery-grid" class="gallery-grid"></div>
+          <div id="lightbox" class="lightbox" aria-hidden="true">
+            <button class="lightbox-close" type="button" aria-label="Close preview">×</button>
+            <img src="" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Student testimonials</p>
+            <h2>Trusted by learners who wanted more than just a certificate.</h2>
+          </div>
+          <div class="testimonial-slider reveal">
+            <button class="slider-btn" data-direction="prev" type="button" aria-label="Previous testimonial">←</button>
+            <div id="testimonial-card" class="testimonial-card"></div>
+            <button class="slider-btn" data-direction="next" type="button" aria-label="Next testimonial">→</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="placements" class="section alt-section">
+        <div class="container placement-grid">
+          <div class="reveal">
+            <p class="eyebrow">Placements</p>
+            <h2>Career support that extends beyond the classroom.</h2>
+            <p>We prepare learners for interviews, internships, and portfolio-ready work through structured guidance and real-world practice.</p>
+            <div class="stats-section">
+              <div class="stat-card"><span class="counter" data-target="5000" data-suffix="+">0</span><p>Students trained</p></div>
+              <div class="stat-card"><span class="counter" data-target="1000" data-suffix="+">0</span><p>Successful placements</p></div>
+              <div class="stat-card"><span class="counter" data-target="95" data-suffix="%">0</span><p>Student satisfaction</p></div>
+              <div class="stat-card"><span class="counter" data-target="10" data-suffix="+">0</span><p>Years of experience</p></div>
+            </div>
+          </div>
+          <div class="reveal placement-card">
+            <h3>Partner companies</h3>
+            <div id="placement-companies" class="placement-partners"></div>
+            <p class="muted">Average salary uplift for our learners: 35%+</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="admissions" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Admission process</p>
+            <h2>Start your journey in five simple steps.</h2>
+          </div>
+          <div class="steps reveal">
+            <article class="step-card"><strong>01</strong><h3>Register</h3><p>Fill out the inquiry form or visit the academy for a quick consultation.</p></article>
+            <article class="step-card"><strong>02</strong><h3>Counseling</h3><p>Talk with our experts to choose the right course and batch.</p></article>
+            <article class="step-card"><strong>03</strong><h3>Choose Course</h3><p>Select the path that matches your career, schedule, and skill level.</p></article>
+            <article class="step-card"><strong>04</strong><h3>Start Learning</h3><p>Begin your hands-on classes, labs, and project-based training.</p></article>
+            <article class="step-card"><strong>05</strong><h3>Certification</h3><p>Receive your completion certificate and placement support.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="faqs" class="section alt-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Frequently asked questions</p>
+            <h2>Everything you need to know before you begin.</h2>
+          </div>
+          <div class="faq-list reveal">
+            <article class="faq-item active">
+              <button class="faq-question" type="button" aria-expanded="true">Do you offer online and offline classes?</button>
+              <div class="faq-answer"><p>Yes. We offer both modes so students can learn flexibly from anywhere or at the center.</p></div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">Will I receive a certificate after completion?</button>
+              <div class="faq-answer"><p>Absolutely. Every learner receives a completion certificate alongside regular assessments and project-based learning.</p></div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">Can beginners join?</button>
+              <div class="faq-answer"><p>Yes. We have beginner-friendly batches designed for students and working professionals alike.</p></div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">Do you provide placement help?</button>
+              <div class="faq-answer"><p>Yes. We provide resume guidance, interview prep, portfolio support, and internship opportunities where applicable.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-grid">
+          <div class="reveal">
+            <p class="eyebrow">Contact us</p>
+            <h2>Let’s build your next career move together.</h2>
+            <p>Visit our campus or connect with us online for admissions, demos, and course guidance.</p>
+            <ul class="contact-list">
+              <li><i class="fa-solid fa-location-dot"></i> 12, Creative Lane, Tech Park, Bengaluru</li>
+              <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+              <li><i class="fa-brands fa-whatsapp"></i> +91 98765 43210</li>
+              <li><i class="fa-solid fa-envelope"></i> hello@youracademyname.com</li>
+            </ul>
+          </div>
+          <div class="reveal">
+            <form class="stack-form" novalidate>
+              <label>Name<input type="text" name="name" required /></label>
+              <label>Email<input type="email" name="email" required /></label>
+              <label>Phone<input type="tel" name="phone" required /></label>
+              <label>Course<select name="course"><option>Programming</option><option>Computer</option><option>Graphics Design</option><option>Web Development</option></select></label>
+              <label>Message<textarea name="message" rows="4"></textarea></label>
+              <button class="btn btn-primary" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-section">
+        <div class="container map-card reveal">
+          <iframe title="Academy location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497699.997386!2d77.3507355!3d12.953847!2m3!1f0!2f0!3f0!3m2!1m1!2s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1710000000000" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#home">
+            <span class="brand-mark">YA</span>
+            <span class="brand-text">
+              <strong>Your Academy Name</strong>
+              <small>Computer Training Academy</small>
+            </span>
+          </a>
+          <p>Premium training for creative and technical careers.</p>
+        </div>
+        <div>
+          <h3>Quick links</h3>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Connect</h3>
+          <ul class="footer-links">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container mt-8 flex flex-col gap-3 border-t border-white/10 pt-6 text-sm text-slate-300 md:flex-row md:items-center md:justify-between">
+        <span>© 2026 Your Academy Name. All rights reserved.</span>
+        <div class="flex flex-wrap gap-4">
+          <a href="#" class="hover:text-white">Privacy Policy</a>
+          <a href="#" class="hover:text-white">Terms & Conditions</a>
+        </div>
+      </div>
+    </footer>
+
+    <a class="back-to-top" href="#home" aria-label="Back to top">↑</a>
+    <a class="whatsapp-float" href="https://wa.me/919876543210?text=Hello%20Your%20Academy%20Name%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noreferrer">WhatsApp</a>
+    <script defer src="script.js"></script>
+  </body>
+</html>
